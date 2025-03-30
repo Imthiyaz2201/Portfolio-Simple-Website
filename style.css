@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.Container{
+    padding: 50px;
+}
+.Section-One{
+    background-color: black;
+    color: white;
+    padding: 20;
+}
+.Section-One__Contact{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+}
+.Section-One__name{
+    font-size: 50px;
+}
+.Section-One__Role{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.Section-Two,.Section-Three,.Section-Four,.Section-Five {
+   margin-top: 20px;
+}
+.Section-Two__Title,.Section-Three__Title,.Section-Four__Title,.Section-Five__Title{
+    margin-top: 5px;
+}
+.Section-Five{
+    background-color: black;
+    color: aliceblue;
+
+}
+.Section-Five__Title a{
+    color: orangered;
+
+}
+.Section-Four li,.Section-Three li{
+    list-style: none;
+}
+.Section-Three{
+    background-color: lightblue;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    height: 150px;
+    border-radius: 20px ;
+    vertical-align: top;
+
+}
+.Section-Four{
+    background-color: crimson;
+    color: azure;
+    display: inline-block;
+    padding: 10px;
+    height: 150px;
+    border-radius: 20px;
+    vertical-align: top;
+}
+.Contact-Form{
+   margin-top: 20px;
+}
+.Contact-Form__Name,.Contact-Form__Email,.Contact-Form__Message,.Contact-Form__Submit{
+    margin-top: 20px;
+}
+
+.Contact-Form__Name,.Contact-Form__Email,.Contact-Form__Message{
+    padding: 10px;
+    border: none;
+    border-bottom: solid orangered 1px;
+
+}
+.Contact-Form__Submit{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+font-weight: bold;
+    background-color: orangered;
+    color: aliceblue;
+   
+}
